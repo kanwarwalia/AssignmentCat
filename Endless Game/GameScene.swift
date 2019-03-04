@@ -17,7 +17,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     private var screenHeight : CGFloat = 0.0
     private let background1 = SKSpriteNode(imageNamed: "background")
     private let background2 = SKSpriteNode(imageNamed: "background")
-    private let dinosaur = SKSpriteNode(imageNamed: "dinosaur")
+    private let dinosaur = SKSpriteNode(imageNamed: "dinosour")
     var label : SKLabelNode?
     var restart : SKSpriteNode?
     var restartLabel : SKLabelNode?
